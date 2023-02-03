@@ -1,7 +1,11 @@
-.app{
+.app {
     font-size: 20px;
 }
 
-.list{
+.title{
+    color: blue;
+}
+
+.list {
     list-style: none;
 }

@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className={s.app}>
-      <h1>Data List</h1>
+      <h1 className={s.title}>Data List</h1>
       <ul className={s.list}>
         {data.map(item => (
           <li key={item.id} onClick={() => handleSelect(item)}>
